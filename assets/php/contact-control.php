@@ -5,9 +5,9 @@ $name = $_POST['name'];
 $vistor_email = $_POST['email'];
 $message = $_POST['message'];
 
-$email_form = "jhs07.yt@gmail.com";
+$email_form = "jhs074.yt@gmail.com";
 
-$email_subject = $_POST['subject'];
+$email_subject = "New From Submission";
 
 $email_body = "Username: $name.\n".
                 "User Email: $vistor_email.\n".
