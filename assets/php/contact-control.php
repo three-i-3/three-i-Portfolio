@@ -5,7 +5,7 @@ $name = $_POST['name'];
 $vistor_email = $_POST['email'];
 $message = $_POST['message'];
 
-$email_form = $vistor_email;
+$email_form = "jhs07.yt@gmail.com";
 
 $email_subject = $_POST['subject'];
 
