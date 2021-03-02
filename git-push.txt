@@ -11,4 +11,4 @@ git push -u origin three-i
 …or push an existing repository from the command line
 git remote add origin https://github.com/three-i-3/portfolio.git
 git branch -M three-i
-git push -u origin three-i
+git push -u origin three-i 
