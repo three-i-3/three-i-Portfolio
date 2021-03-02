@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --mainColor: #
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -23,18 +27,18 @@ ul {
     list-style: none;
 }
 
-.main-color-1{
+.main-color-1 {
     color: #485461;
 }
 
-.main-color-1-bg{
+.main-color-1-bg {
     background-color: #485461;
 }
 
-.main-color-2{
+.main-color-2 {
     color: #28313b;
 }
 
-.main-color-2-bg{
+.main-color-2-bg {
     background-color: #28313b;
 }

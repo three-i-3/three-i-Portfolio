@@ -1,7 +1,7 @@
 echo "# portfolio" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "Portfolio Three-i"
 git branch -M three-i
 git remote add origin https://github.com/three-i-3/portfolio.git
 git push -u origin three-i
