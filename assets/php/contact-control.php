@@ -15,7 +15,7 @@ $email_body = "Username: $name.\n".
 
 $to = "lntelligence273@gmail.com";
 
-$headers = "From: $email_form.\r\n";
+$headers = "From: $email_form \r\n";
 $headers .= "Reply-to: $vistor_email.\r\n";
 mail($to,$email_subject,$email_body,$headers);
 
