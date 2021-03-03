@@ -16,6 +16,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    
 }
 
 a {
@@ -42,3 +43,21 @@ ul {
 .main-color-2-bg {
     background-color: #28313b;
 }
+a.back-hm {
+    padding: 0.6rem 1.8rem;
+    background-color: #1179e7;
+    border: 2px solid #1179e7;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  a.back-hm:hover {
+    background: none;
+    border: 2px solid #1179e7;
+    color: #1179e7;
+  }

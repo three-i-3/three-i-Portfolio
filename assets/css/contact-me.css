@@ -7,13 +7,14 @@
 
 body {
   background: #f1f1f1;
+  padding: 0 0 88px 0;
 }
 
 .wraper-co {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 119px 0 59px 0;
 }
 
 .contact-info {
@@ -74,7 +75,7 @@ body {
 
 a.btn-back {
   position: absolute;
-  bottom: 0%;
+  right: 50%;
   padding: 0.6rem 1.8rem;
   background-color: #1179e7;
   border: 2px solid #1179e7;
@@ -168,6 +169,18 @@ a.btn-back:hover {
   cursor: pointer;
 }
 
-.back{
-  background: src();
+.header-cn {
+  font-size: 50px;
+  margin-top: 12px;
+  color: steelblue;
+}
+
+.cn-sk {
+  position: absolute;
+  right: 23%;
+}
+
+.cn-ser {
+  position: absolute;
+  left: 14%;
 }
