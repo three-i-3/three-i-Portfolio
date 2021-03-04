@@ -1,9 +1,10 @@
-body{
-    text-align: center;
+.titleText {
+    color: #fff;
+    padding: 20px 0;
+    font-size: 39px;
 }
-h1{
-    color: steelblue;
-    font-weight: 900;
-    font-size: 100px;
-    margin-bottom: 30px;
+
+.content>h2 {
+    color: #fff;
+    font-size: 20px;
 }

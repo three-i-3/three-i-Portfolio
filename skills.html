@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Bootstrap CSS file -->
+
+    <!-- Progress Bar CSS -->
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/css/jquery.lineProgressbar.css">
+    <!-- Progress Bar CSS -->
+
     <!-- Custom CSS File -->
     <link rel="stylesheet" href="assets/css/all-main.css">
     <link rel="stylesheet" href="./assets/css/skills.css">
@@ -14,10 +23,121 @@
     <title>Skills -Three_i</title>
 </head>
 
-<body>
+<body class="main-color-1-bg">
 
-    <h1>Coming Soon</h1>
-    <a href="./index.html" class="back-hm">Back To Home</a>
+    <section id="skill-section">
+        <div class="container">
+            <div class="title wow slideInLeft">
+                <div class="row">
+                    <h2 class="col-md-12 titleText text-center">
+                        My Skills
+                    </h2>
+                </div>
+            </div>
+            <div class="content">
+                <h2>jQuery</h2>
+                <div id="jq"></div>
+                <h2>HTML5</h2>
+                <div id="html"></div>
+                <h2>CSS/CSS3</h2>
+                <div id="css"></div>
+                <h2>Bootstrap 4/5</h2>
+                <div id="bts"></div>
+                <h2>JavaScript</h2>
+                <div id="js"></div>
+                <h2>WordPress</h2>
+                <div id="wp"></div>
+                <h2>React.Js</h2>
+                <div id="rjs"></div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <h2 class="col-md-12 titleText text-center">
+                        My Work Skill
+                    </h2>
+                </div>
+                <h2>Creativity</h2>
+                <div id="cr"></div>
+                <h2>Team Wise Work</h2>
+                <div id="tww"></div>
+                <h2>Project Managment</h2>
+                <div id="pm"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <a href="./index.html" class="back-hm  ">Back To Home</a>
+    <a href="./index.html" class="back-hm  ">Go To Contact</a>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.lineProgressbar.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script>
+        $('#jq').LineProgressbar({
+            percentage: 90,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#html').LineProgressbar({
+            percentage: 99,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#css').LineProgressbar({
+            percentage: 93,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#bts').LineProgressbar({
+            percentage: 91,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#js').LineProgressbar({
+            percentage: 89.77,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#wp').LineProgressbar({
+            percentage: 95,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#rjs').LineProgressbar({
+            percentage: 45,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#cr').LineProgressbar({
+            percentage: 88,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#tww').LineProgressbar({
+            percentage: 70,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+        $('#pm').LineProgressbar({
+            percentage: 90,
+            radius: '3px',
+            height: '20px',
+            fillBackgroundColor: '#1179e7'
+        });
+    </script>
 
 </body>
 
