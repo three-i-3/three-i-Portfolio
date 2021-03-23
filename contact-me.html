@@ -49,64 +49,12 @@
     <a href="./skills.html" class="back-hm cn-sk ">Go to skils</a>
     <a href="./services.html" class="back-hm cn-ser">Go to services</a>
 
-   <!-- <div class="container contact-form">
-        <div class="contact-image">
-            <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
-        </div>
-        <form action="#" role="form" onsubmit="return check();" method="post">
-            <h3>Drop Us a Message</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Your Name *" value="" required />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" id="ConEmail" class="form-control" placeholder="Your Email *" value=""required />
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="subject" class="form-control" id="conSubj" placeholder="Subject *"
-                            value="" required />
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" onclick="send(event)" name="btnSubmit" class="btnContact" value="Send Message" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <textarea name="txtMsg" id="conSMS" class="form-control" placeholder="Your Message *"
-                            style="width: 100%; height: 150px;" required></textarea>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
 
-     -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="./assets/js/smtp.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
-    <!-- <script> 
-    function send(event) {
-        event.preventDefault();           
-        Email.send({
-          name:document.getElementById('name').value,    
-          Host : "smtp.gmail.com",
-          SecureToken :"bf1a3e7b-2599-4994-9af1-84faf07fedc8" , 
-          To : "lntelligence273@gmail.com",
-          From : document.getElementById('ConEmail').value,
-          Subject : document.getElementById('conSubj').value,
-          Body : document.getElementById('conSMS').value
-          }).then(function(response){ 
-           if (response == 'OK') {              
-               alert("Mail sent succeessfully");
-            } else {
-                throw new Error("Error: " + response.statusText);
-            } 
-         });
- 
-    }    
-  </script> -->
+
 </body>
 
 </html>
